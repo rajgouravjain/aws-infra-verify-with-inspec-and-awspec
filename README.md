@@ -22,9 +22,18 @@ gem "rubyzip", ">= 1.3.0"
 
 - run following commands ::
 ```sh
-bundle exec rspec test
-```
+bundle exec rspec tests/integration/basic/awspec
 
+```
+# AWSSpec setup with Rake
+- Install Rake gem
+- Add Rakefile
+- Add spec*.rb file to spec directory. Include spec_helper.rb file as well.
+
+- run follwoing command
+```sh
+bundle exec rake
+```
 #Inspec setup
 
 You would need to install inspec binary from https://docs.chef.io/inspec/install/ 
