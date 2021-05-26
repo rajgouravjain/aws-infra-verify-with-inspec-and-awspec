@@ -1,4 +1,5 @@
 require 'spec_helper'
+
 describe vpc('ireland_prd') do
   it { should exist }
   it { should be_available }

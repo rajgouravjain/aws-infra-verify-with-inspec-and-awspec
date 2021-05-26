@@ -1,1 +1,2 @@
-bundle exec rspec test
+bundle exec rspec tests/integration/basic/awspec/ 
+
